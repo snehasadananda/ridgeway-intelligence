@@ -1,0 +1,84 @@
+{
+  "history": [
+    {
+      "vehicleId": "VEH-0342",
+      "timestamp": "2024-01-16T02:10:00Z",
+      "location": { "lat": 28.4593, "lng": 77.0265 },
+      "zone": "Gate-3-Entrance",
+      "speed": 8,
+      "direction": 45,
+      "metadata": {
+        "vehicleType": "Contractor Truck",
+        "licensePlate": "DL-4C-AB-1234",
+        "company": "BuildRight Construction",
+        "authorized": true,
+        "purpose": "Material delivery scheduled for 8:00 AM"
+      }
+    },
+    {
+      "vehicleId": "VEH-0342",
+      "timestamp": "2024-01-16T02:15:30Z",
+      "location": { "lat": 28.4596, "lng": 77.0270 },
+      "zone": "Work-Area-A",
+      "speed": 12,
+      "direction": 60
+    },
+    {
+      "vehicleId": "VEH-0342",
+      "timestamp": "2024-01-16T02:18:45Z",
+      "location": { "lat": 28.4601, "lng": 77.0275 },
+      "zone": "Block-C-Storage",
+      "speed": 15,
+      "direction": 75,
+      "metadata": {
+        "alert": "Unauthorized zone entry - Block C is restricted after hours"
+      }
+    },
+    {
+      "vehicleId": "VEH-0342",
+      "timestamp": "2024-01-16T02:22:15Z",
+      "location": { "lat": 28.4603, "lng": 77.0278 },
+      "zone": "Block-C-Storage",
+      "speed": 5,
+      "direction": 90,
+      "metadata": {
+        "note": "Vehicle stopped near Block C Secondary Access"
+      }
+    },
+    {
+      "vehicleId": "VEH-0342",
+      "timestamp": "2024-01-16T02:28:30Z",
+      "location": { "lat": 28.4600, "lng": 77.0273 },
+      "zone": "Work-Area-A",
+      "speed": 18,
+      "direction": 225,
+      "metadata": {
+        "note": "Vehicle leaving Block C area"
+      }
+    },
+    {
+      "vehicleId": "VEH-0342",
+      "timestamp": "2024-01-16T02:32:00Z",
+      "location": { "lat": 28.4594, "lng": 77.0266 },
+      "zone": "Gate-3-Parking",
+      "speed": 0,
+      "direction": 0,
+      "metadata": {
+        "note": "Vehicle parked at Gate 3 parking area"
+      }
+    },
+    {
+      "vehicleId": "VEH-0156",
+      "timestamp": "2024-01-16T01:20:00Z",
+      "location": { "lat": 28.4595, "lng": 77.0268 },
+      "zone": "Gate-3-Entrance",
+      "speed": 10,
+      "direction": 90,
+      "metadata": {
+        "vehicleType": "Security Patrol",
+        "authorized": true
+      }
+    }
+  ],
+  "generatedAt": "2024-01-16T06:10:00Z"
+}

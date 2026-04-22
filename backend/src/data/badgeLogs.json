@@ -1,0 +1,66 @@
+{
+  "logs": [
+    {
+      "timestamp": "2024-01-16T02:15:33Z",
+      "employeeId": "EMP-4521",
+      "badgeId": "BADGE-8829",
+      "accessPoint": "Gate-3-Main",
+      "status": "DENIED",
+      "reason": "Badge expired on 2024-01-10",
+      "employeeName": "John Martinez",
+      "department": "External Contractor",
+      "contractorCompany": "BuildRight Construction"
+    },
+    {
+      "timestamp": "2024-01-16T02:19:12Z",
+      "employeeId": "EMP-4521",
+      "badgeId": "BADGE-8829",
+      "accessPoint": "Block-C-Storage",
+      "status": "DENIED",
+      "reason": "Badge expired on 2024-01-10",
+      "employeeName": "John Martinez",
+      "department": "External Contractor",
+      "contractorCompany": "BuildRight Construction"
+    },
+    {
+      "timestamp": "2024-01-16T02:25:08Z",
+      "employeeId": "EMP-4521",
+      "badgeId": "BADGE-8829",
+      "accessPoint": "Block-C-Secondary",
+      "status": "DENIED",
+      "reason": "Badge expired on 2024-01-10",
+      "employeeName": "John Martinez",
+      "department": "External Contractor",
+      "contractorCompany": "BuildRight Construction"
+    },
+    {
+      "timestamp": "2024-01-16T00:45:22Z",
+      "employeeId": "EMP-1103",
+      "badgeId": "BADGE-2234",
+      "accessPoint": "Gate-3-Main",
+      "status": "GRANTED",
+      "employeeName": "Sarah Chen",
+      "department": "Night Operations"
+    },
+    {
+      "timestamp": "2024-01-16T01:15:10Z",
+      "employeeId": "EMP-1103",
+      "badgeId": "BADGE-2234",
+      "accessPoint": "Work-Area-A",
+      "status": "GRANTED",
+      "employeeName": "Sarah Chen",
+      "department": "Night Operations"
+    },
+    {
+      "timestamp": "2024-01-15T23:30:45Z",
+      "employeeId": "EMP-0892",
+      "badgeId": "BADGE-1567",
+      "accessPoint": "Gate-3-Main",
+      "status": "GRANTED",
+      "employeeName": "Raghav Kumar",
+      "department": "Night Supervisor",
+      "role": "Supervisor"
+    }
+  ],
+  "generatedAt": "2024-01-16T06:10:00Z"
+}

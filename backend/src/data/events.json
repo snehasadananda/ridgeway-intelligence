@@ -1,0 +1,116 @@
+{
+  "events": [
+    {
+      "id": "evt_001",
+      "type": "fence_alert",
+      "timestamp": "2024-01-16T01:23:15Z",
+      "location": {
+        "name": "Gate 3 - East Perimeter",
+        "coordinates": { "lat": 28.4595, "lng": 77.0266 },
+        "zone": "Perimeter-East"
+      },
+      "severity": "medium",
+      "status": "open",
+      "description": "Fence sensor triggered - Section F7",
+      "metadata": {
+        "sensorId": "FENCE-G3-S7",
+        "triggerStrength": 6.2,
+        "weatherCondition": "windy",
+        "windSpeed": "25 km/h"
+      }
+    },
+    {
+      "id": "evt_002",
+      "type": "badge_failure",
+      "timestamp": "2024-01-16T02:15:33Z",
+      "location": {
+        "name": "Gate 3 - Main Access Point",
+        "coordinates": { "lat": 28.4597, "lng": 77.0268 },
+        "zone": "Gate-3-Access"
+      },
+      "severity": "medium",
+      "status": "open",
+      "description": "Badge access denied - expired credential",
+      "metadata": {
+        "accessPointId": "AP-G3-MAIN",
+        "badgeId": "BADGE-8829",
+        "employeeId": "EMP-4521"
+      }
+    },
+    {
+      "id": "evt_003",
+      "type": "vehicle_movement",
+      "timestamp": "2024-01-16T02:18:45Z",
+      "location": {
+        "name": "Block C - Storage Yard Entrance",
+        "coordinates": { "lat": 28.4601, "lng": 77.0275 },
+        "zone": "Block-C-Storage"
+      },
+      "severity": "high",
+      "status": "open",
+      "description": "Vehicle detected in restricted zone",
+      "metadata": {
+        "vehicleId": "VEH-0342",
+        "vehicleType": "Contractor Truck",
+        "speed": 15,
+        "authorized": false
+      }
+    },
+    {
+      "id": "evt_004",
+      "type": "badge_failure",
+      "timestamp": "2024-01-16T02:19:12Z",
+      "location": {
+        "name": "Block C - Storage Access",
+        "coordinates": { "lat": 28.4602, "lng": 77.0276 },
+        "zone": "Block-C-Storage"
+      },
+      "severity": "high",
+      "status": "open",
+      "description": "Badge access denied - same credential",
+      "metadata": {
+        "accessPointId": "AP-BC-STORAGE",
+        "badgeId": "BADGE-8829",
+        "employeeId": "EMP-4521"
+      }
+    },
+    {
+      "id": "evt_005",
+      "type": "badge_failure",
+      "timestamp": "2024-01-16T02:25:08Z",
+      "location": {
+        "name": "Block C - Secondary Access",
+        "coordinates": { "lat": 28.4603, "lng": 77.0278 },
+        "zone": "Block-C-Storage"
+      },
+      "severity": "high",
+      "status": "open",
+      "description": "Badge access denied - third attempt",
+      "metadata": {
+        "accessPointId": "AP-BC-SECONDARY",
+        "badgeId": "BADGE-8829",
+        "employeeId": "EMP-4521"
+      }
+    },
+    {
+      "id": "evt_006",
+      "type": "drone_patrol",
+      "timestamp": "2024-01-16T03:45:00Z",
+      "location": {
+        "name": "Scheduled Patrol - Sector 3",
+        "coordinates": { "lat": 28.4600, "lng": 77.0272 },
+        "zone": "Block-C-Vicinity"
+      },
+      "severity": "low",
+      "status": "open",
+      "description": "Routine patrol passed near Block C",
+      "metadata": {
+        "droneId": "DRONE-02",
+        "patrolRoute": "SECTOR-3-NIGHT",
+        "findings": "No anomalies detected during flyover"
+      }
+    }
+  ],
+  "generatedAt": "2024-01-16T06:10:00Z",
+  "note": "Overnight events from 22:00 (Jan 15) to 06:00 (Jan 16)"
+}
