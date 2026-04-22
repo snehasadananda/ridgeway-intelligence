@@ -34,7 +34,7 @@ Frontend (React) → Backend (Node.js) → AI Agent → MCP Tools
 ## 🌍 Live Demo
 
 Frontend: https://your-vercel-link  
-Backend: [https://your-render-link](https://ridgeway-intelligence.onrender.com)
+Backend: https://ridgeway-intelligence.onrender.com
 
 ## 📹 Demo Video
 
