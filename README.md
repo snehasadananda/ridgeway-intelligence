@@ -38,8 +38,7 @@ Backend: https://ridgeway-intelligence.onrender.com
 
 ## 📹 Demo Video
 
-[Add your video link]
-
+https://www.loom.com/share/33c135d4965e4f5db366e431858c701a
 ## ⚙️ Setup
 
 ### Backend
